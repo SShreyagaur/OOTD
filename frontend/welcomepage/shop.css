@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin:0 ;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:Montserrat;
+        background: linear-gradient(to bottom, #e41978, #f6f9f9 50%, #73d9ed);
+        height: 100vh;
+        margin: 0;
+}
+nav{
+    background:rgb(192, 30, 113);
+    color:white;
+    height:70px;
+    width:100%;
+}
+label.logo{
+    float: right;
+    color:white;
+    font-size:35px;
+    line-height:80px;
+    padding:0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float:left;
+    margin-left: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding:7px 13px;
+    border-radius: 15px;
+    text-transform: uppercase;
+
+}
+a.home,a:hover{
+    background:rgb(238, 73, 141);
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    color: white; 
+    line-height: 80px;
+    margin-right: 40px; 
+    cursor: pointer;
+    display:none;
+    font-family: Fontawesome;
+    content:"\f0c9";
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+#check{
+    display: none; 
+}
+#box{
+    display:inline-flex;
+}
+.box1{
+    color: #fcfafc;
+    background-color: #eea9c9;
+    height: 400px;
+    width: 350px;
+    margin:5px;
+    margin-left: 20px;
+    
+}
+.box2{
+    color: #fcfafc;
+    background-color: #eea9c9;
+    height: 400px;
+    width: 350px;
+    margin:5px;
+}
+.box3{
+    color: #fcfafc;
+    background-color: #eea9c9;
+    height: 400px;
+    width: 350px;
+    margin:5px;
+}
+.box4{
+    color: #fcfafc;
+    background-color: #eea9c9;
+    height: 400px;
+    width: 350px;
+    margin:5px;
+}
+#pox{
+    display:inline-flex;
+    
+}
+.pox1{
+    color: #fcfafc;
+    background-color: #faf2f6;
+    height: 50px;
+    width: 350px;
+    margin:5px;
+    margin-left: 20px;
+    
+}
+.pox2{
+    color: #fcfafc;
+    background-color: #faf2f6;
+    height: 50px;
+    width: 350px;
+    margin:5px;
+}
+.pox3{
+    color: #fcfafc;
+    background-color: #faf2f6;
+    height: 50px;
+    width: 350px;
+    margin:5px;
+}
+.pox4{
+    color: #fcfafc;
+    background-color: #faf2f6;
+    height: 50px;
+    width: 350px;
+    margin:5px;
+}

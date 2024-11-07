@@ -87,17 +87,19 @@ a.home,a:hover{
     margin-top: 800px;
     margin-right: 50px;
 }
-#query{
-    background-color: aliceblue;
-    
-}
-.search{
-    border-radius: 20px;
-    background-color: aqua;
-    color: #f6f9f9;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+#map {
+    height: 100%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 @media (max-width: 952px) {
     label.logo {
         font-size: 30px;
@@ -144,4 +146,3 @@ a.home,a:hover{
 body{
     align-items: center;
 }
-
