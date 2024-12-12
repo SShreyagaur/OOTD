@@ -3,44 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OOTD</title>
-    <link rel="stylesheet" href="first.css">
-    <link rel="icon" href="ootd.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <title>Welcome to OOTD</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fa fa-bars">Menu</i>
-        </label>
-        <label class="logo">OOTD</label>
-        <Ul>
-        <li><a class="home" href="index.html">Home</a></li>
-        <li><a href="profile.htm">profile</a></li>
-        <li><a href="shop.htm">shop</a></li>
-        <li><a href="order.htm">order</a></li>
-        <li><a href="map.htm">map</a></li>
-        <li><a href="ai.htm">Hello barbie</a></li>
-    </Ul>
+    <header class="welcome-section">
+        <div class="profile">
+            <img src="assets/profile.jpg" alt="Profile Picture">
+        </div>
+        <div class="nav-toggle" onclick="toggleNav()">
+            ☰
+        </div>
+        <h1>Welcome, [User's Name]</h1>
+        <img src="assets/logo.png" alt="Website Logo" class="logo">
+    </header>
+
+    <nav id="sidebar" class="sidebar">
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#bag">My Orders</a></li>
+            <li><a href="#ai">AI/Barbie-Ken</a></li>
+        </ul>
     </nav>
-    <!--<ul>
-    <h1>OOTD</h1>
-    <h2>Key Features</h2>
-        <li>Designer Matchmaking</li>
-        <li>Virtual Dress-up</li>
-        <li>OOTD Showcase</li>
-        <li>Trend generation</li>
-        <li>Shop & Order</li>
-        <li>Fashion Media</li>
-    </ul>
--->
-    <br>
-    
-    <div id="welcome">
-    <h1 class="wel"> Welcome to OOTD</h1>
-    <a class="explore" href="explore.htm">explore</a>
-</div>
+
+    <section id="ootd" class="ootd-section">
+        <h2>Outfit of the Day</h2>
+        <div class="ootd-container">
+            <div class="ootd-item">
+                <img src="assets/ootd1.jpg" alt="OOTD 1">
+                <p>Trendy Outfit</p>
+            </div>
+            <div class="ootd-item">
+                <img src="assets/ootd2.jpg" alt="OOTD 2">
+                <p>Summer Vibes</p>
+            </div>
+            <div class="ootd-item">
+                <img src="assets/ootd3.jpg" alt="OOTD 3">
+                <p>Barbie & Ken Style</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="description" class="description-section">
+        <h2>About Us</h2>
+        <p>
+            Welcome to the ultimate fashion platform! Here you can:
+            - Collaborate with designers.
+            - Dress your Barbie and Ken.
+            - Share outfits on your profile.
+            - Find the best trends using AI!
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 OOTD Platform. All Rights Reserved.</p>
+        <p>Email: support@ootd.com | Contact: +91-1234567890</p>
+    </footer>
 </body>
 </html>

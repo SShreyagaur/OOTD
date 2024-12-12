@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, silver, pink, cyan);
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Header Section */
+.welcome-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: black;
+    color: cyan;
+    position: relative;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo {
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+/* Sidebar Navigation */
+.nav-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    color: pink;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: black;
+    color: silver;
+    transition: 0.3s;
+    padding-top: 50px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: cyan;
+}
+
+.sidebar ul li:hover {
+    background: gray;
+}
+
+/* OOTD Section */
+.ootd-section {
+    padding: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.ootd-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.ootd-item {
+    min-width: 200px;
+    border: 2px solid silver;
+    padding: 10px;
+    background: cyan;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: pink;
+    color: black;
+}
